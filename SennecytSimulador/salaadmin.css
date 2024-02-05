@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fondo general de la página */
+}
+
+.menu-admin {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1; /* Fondo del encabezado del menú */
+    overflow: hidden;
+}
+
+.menu-admin h2 {
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu-nav {
+    float: left;
+}
+
+.menu-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu-nav li {
+    float: left;
+}
+
+.menu-nav li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.menu-nav li a:hover {
+    background-color: #ddd;
+}
+
+/* Estilos para el menú desplegable */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.cerrar-sesion {
+    float: right;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo del botón "Cerrar Sesión" de color rojo */
+.cerrar-sesion{
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/* Estilo de la imagen */
+.logo-img {
+    width: 425px;
+    display: block;
+    margin: auto;
+}
